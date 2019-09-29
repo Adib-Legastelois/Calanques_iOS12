@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sBy-IW-OG4">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,23 +13,23 @@
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="ControllerAvecTableView" customModule="Les_Calanques" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="port pin" translatesAutoresizingMaskIntoConstraints="NO" id="Fqy-B7-8Ea">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qUO-mK-ofM">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="XUR-t1-q7V">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c6s-Qu-meK">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="ehR-dT-Qq5">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             </view>
                                             <vibrancyEffect>
@@ -43,7 +41,7 @@
                                 <blurEffect style="light"/>
                             </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visitez les Calanques" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hht-j4-POv">
-                                <rect key="frame" x="10" y="98" width="355" height="30"/>
+                                <rect key="frame" x="10" y="66" width="355" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="H6o-io-YPr"/>
                                 </constraints>
@@ -52,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Gpo-6l-d3X">
-                                <rect key="frame" x="10" y="136" width="355" height="583"/>
+                                <rect key="frame" x="10" y="104" width="355" height="561"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="Alternative" rowHeight="200" id="Wtp-kd-r9u" customClass="CalanqueCellAlternative" customModule="Les_Calanques" customModuleProvider="target">
@@ -158,27 +156,27 @@
             <objects>
                 <tableViewController id="04K-du-RfF" customClass="TableViewIntegreeController" customModule="Les_Calanques" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="m5d-6N-5A6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="A9E-2n-zi6">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A9E-2n-zi6" id="3vD-g6-PiP">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CalanqueCell" rowHeight="136" id="TVA-1s-hBM" customClass="CalanqueCell" customModule="Les_Calanques" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="72" width="375" height="136"/>
+                                <rect key="frame" x="0.0" y="71.666667938232422" width="375" height="136"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TVA-1s-hBM" id="FF4-Qw-LNs">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="135.66666666666666"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78H-La-Sjj">
-                                            <rect key="frame" x="0.0" y="35.666666666666657" width="375" height="100"/>
+                                            <rect key="frame" x="0.0" y="36" width="375" height="100"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Haz-jF-L4l">
                                                     <rect key="frame" x="150" y="8" width="217" height="84"/>
@@ -197,7 +195,7 @@
                                             </constraints>
                                         </view>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MnG-nu-viN" customClass="ImageRonde" customModule="Les_Calanques" customModuleProvider="target">
-                                            <rect key="frame" x="8" y="5.3333333333333286" width="125" height="124.99999999999999"/>
+                                            <rect key="frame" x="8" y="5.6666666666666714" width="125" height="125.00000000000001"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="125" id="2c9-qJ-OfI"/>
                                                 <constraint firstAttribute="width" constant="125" id="3tn-Cy-tOx"/>
@@ -226,7 +224,13 @@
                             <outlet property="delegate" destination="04K-du-RfF" id="lWx-Za-APL"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="B15-fN-JrY"/>
+                    <navigationItem key="navigationItem" id="B15-fN-JrY">
+                        <barButtonItem key="rightBarButtonItem" title="Reload" id="X3E-gl-CqM">
+                            <connections>
+                                <action selector="reloadAction:" destination="04K-du-RfF" id="7lo-5F-1BX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="doi-Yu-rEa" kind="show" identifier="Detail" id="dLB-ON-sum"/>
                     </connections>
@@ -240,18 +244,18 @@
             <objects>
                 <viewController id="doi-Yu-rEa" customClass="DetailController" customModule="Les_Calanques" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4IG-XZ-pyT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aRf-L6-aV3" customClass="ImageRonde" customModule="Les_Calanques" customModuleProvider="target">
-                                <rect key="frame" x="87.666666666666686" y="98" width="200" height="200"/>
+                                <rect key="frame" x="87.666666666666686" y="66" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="IEK-LI-ml5"/>
                                     <constraint firstAttribute="width" constant="200" id="JFK-Is-x6p"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hi7-17-Nxo">
-                                <rect key="frame" x="16" y="318" width="343" height="401"/>
+                                <rect key="frame" x="16" y="286" width="343" height="379"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -283,16 +287,133 @@
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="ControllerAvecCarte" customModule="Les_Calanques" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="VuD-9g-2w5">
+                                <rect key="frame" x="0.0" y="56" width="375" height="619"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VuD-9g-2w5" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" id="9QY-xL-X80"/>
+                            <constraint firstItem="VuD-9g-2w5" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="fgK-hk-UpU"/>
+                            <constraint firstItem="VuD-9g-2w5" firstAttribute="bottom" secondItem="O1u-W8-tvY" secondAttribute="bottom" id="g32-6v-EyJ"/>
+                            <constraint firstItem="VuD-9g-2w5" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="qjc-hW-Pdj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="53V-r7-VKA"/>
+                    <navigationItem key="navigationItem" id="53V-r7-VKA">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="RA1-2t-WFb">
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Standard"/>
+                                <segment title="Satellite"/>
+                                <segment title="Hybride"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentedChanged:" destination="8rJ-Kc-sve" eventType="valueChanged" id="cRn-gk-Lmg"/>
+                            </connections>
+                        </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="placeholder" id="TOQ-e8-OU3">
+                            <connections>
+                                <action selector="getPosition:" destination="8rJ-Kc-sve" id="tts-B6-suf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="VuD-9g-2w5" id="0ar-cP-M7D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688.8" y="1150.9745127436283"/>
+            <point key="canvasLocation" x="1688.4057971014495" y="1150.4464285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IUK-JA-3pC">
+            <objects>
+                <viewController id="sBy-IW-OG4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eF4-4x-jwc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sugiton" translatesAutoresizingMaskIntoConstraints="NO" id="4vx-go-mGV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bIb-tJ-J6j">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1xm-Yz-dyc">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HFT-ND-fuR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="6p7-Ro-ruY">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u87-N1-Vbr" customClass="Bouton_Arrondi" customModule="Les_Calanques" customModuleProvider="target">
+                                <rect key="frame" x="20" y="742" width="335" height="50"/>
+                                <color key="backgroundColor" red="0.18823529411764706" green="0.66666666666666663" blue="1" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Jzt-Je-1H9"/>
+                                </constraints>
+                                <state key="normal" title="Visitez les Calanques">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="49e-Tb-3d3" kind="show" id="Tcb-Fq-DEM"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sugiton" translatesAutoresizingMaskIntoConstraints="NO" id="G4H-6T-kNn" customClass="ImageRonde" customModule="Les_Calanques" customModuleProvider="target">
+                                <rect key="frame" x="100" y="74" width="175" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="SaD-aM-DAs"/>
+                                    <constraint firstAttribute="height" constant="175" id="px1-Hf-5rD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Un petit coin de paradis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mwg-Na-As3">
+                                <rect key="frame" x="20" y="269" width="335" height="453"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Light" family="American Typewriter" pointSize="23"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bIb-tJ-J6j" firstAttribute="leading" secondItem="zg2-wC-f8b" secondAttribute="leading" id="0ty-Ia-4CR"/>
+                            <constraint firstItem="mwg-Na-As3" firstAttribute="leading" secondItem="zg2-wC-f8b" secondAttribute="leading" constant="20" id="6oJ-rT-ItO"/>
+                            <constraint firstItem="bIb-tJ-J6j" firstAttribute="top" secondItem="eF4-4x-jwc" secondAttribute="top" id="E0H-f7-ksV"/>
+                            <constraint firstItem="G4H-6T-kNn" firstAttribute="top" secondItem="zg2-wC-f8b" secondAttribute="top" constant="30" id="GNa-4W-Vpo"/>
+                            <constraint firstAttribute="bottom" secondItem="bIb-tJ-J6j" secondAttribute="bottom" id="O8P-7p-Wea"/>
+                            <constraint firstItem="4vx-go-mGV" firstAttribute="trailing" secondItem="zg2-wC-f8b" secondAttribute="trailing" id="Udh-mq-RpM"/>
+                            <constraint firstAttribute="bottom" secondItem="u87-N1-Vbr" secondAttribute="bottom" constant="20" id="XpN-32-kLF"/>
+                            <constraint firstItem="u87-N1-Vbr" firstAttribute="leading" secondItem="zg2-wC-f8b" secondAttribute="leading" constant="20" id="bOV-Qj-3Sq"/>
+                            <constraint firstItem="4vx-go-mGV" firstAttribute="top" secondItem="eF4-4x-jwc" secondAttribute="top" id="eud-FY-VA4"/>
+                            <constraint firstItem="mwg-Na-As3" firstAttribute="top" secondItem="G4H-6T-kNn" secondAttribute="bottom" constant="20" id="fLV-f0-VNB"/>
+                            <constraint firstItem="bIb-tJ-J6j" firstAttribute="trailing" secondItem="zg2-wC-f8b" secondAttribute="trailing" id="heg-Rn-pIb"/>
+                            <constraint firstItem="zg2-wC-f8b" firstAttribute="trailing" secondItem="mwg-Na-As3" secondAttribute="trailing" constant="20" id="ij8-SS-rwX"/>
+                            <constraint firstItem="4vx-go-mGV" firstAttribute="leading" secondItem="zg2-wC-f8b" secondAttribute="leading" id="nYs-QX-3fI"/>
+                            <constraint firstItem="G4H-6T-kNn" firstAttribute="centerX" secondItem="eF4-4x-jwc" secondAttribute="centerX" id="nwy-EE-Ojp"/>
+                            <constraint firstItem="u87-N1-Vbr" firstAttribute="top" secondItem="mwg-Na-As3" secondAttribute="bottom" constant="20" id="oVo-Sh-86N"/>
+                            <constraint firstItem="zg2-wC-f8b" firstAttribute="trailing" secondItem="u87-N1-Vbr" secondAttribute="trailing" constant="20" id="pVg-uG-qUL"/>
+                            <constraint firstAttribute="bottom" secondItem="4vx-go-mGV" secondAttribute="bottom" id="syR-WP-bIt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zg2-wC-f8b"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5zg-9H-YWa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-770.39999999999998" y="383.49753694581284"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -320,7 +441,7 @@
                     <tabBarItem key="tabBarItem" title="Table View 1" image="list" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="G8t-H6-Njz">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -339,7 +460,7 @@
                     <tabBarItem key="tabBarItem" title="Table View 2" image="list" id="WtW-Zx-mYV"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9vC-0V-W68">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -358,7 +479,7 @@
                     <tabBarItem key="tabBarItem" title="Carte" image="earth" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9SK-MG-abe">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -375,7 +496,9 @@
         <image name="callelongue" width="1600" height="1066"/>
         <image name="earth" width="32" height="32"/>
         <image name="list" width="32" height="32"/>
+        <image name="placeholder" width="32" height="32"/>
         <image name="port pin" width="1024" height="684"/>
+        <image name="sugiton" width="1600" height="896"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dLB-ON-sum"/>
