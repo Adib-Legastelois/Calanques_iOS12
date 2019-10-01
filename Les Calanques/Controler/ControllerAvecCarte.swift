@@ -15,13 +15,31 @@ class ControllerAvecCarte: UIViewController, MKMapViewDelegate {
     var calanques: [Calanque] = CalanqueCollection().all()
    
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.delegate = self
         addAnnotation()
+        NotificationCenter.default.addObserver(self, selector: #selector(notifDetail), name: Notification.Name("detail"), object: nil)
     }
     
+    @objc func notifDetail(notification: Notification) {
+        if let calanque = notification.object as? Calanque {
+            print("J'ai une calanque")
+            toDetail(calanque: calanque)
+        }
+    }
+    
+    func toDetail(calanque: Calanque) {
+        performSegue(withIdentifier:"Detail", sender: calanque)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Detail" {
+            if let controller = segue.destination as? DetailController {
+                controller.calanqueRecue = sender as? Calanque
+            }
+        }
+    }
     func addAnnotation() {
         for calanque in calanques {
            
@@ -49,9 +67,15 @@ class ControllerAvecCarte: UIViewController, MKMapViewDelegate {
             if let anno = annotation as? MonAnnotation {
                 var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseIdentifier)
                 if annotationView == nil {
-                    annotationView = MKAnnotationView(annotation: anno, reuseIdentifier: reuseIdentifier)
-                    annotationView?.image = UIImage(named: "placeholder")
-                    annotationView?.canShowCallout = true
+                    //Override
+                    //annotationView = MonAnnotationView(annotation: anno,
+                      //          reuseIdentifier: reuseIdentifier)
+                    
+                    annotationView = MonAnnotationView(controller: self, annotation: anno, reuseIdentifier: reuseIdentifier)
+                    
+                   // annotationView = MKAnnotationView(annotation: anno, reuseIdentifier: reuseIdentifier)
+                   // annotationView?.image = UIImage(named: "placeholder")
+                    //annotationView?.canShowCallout = true
                     return annotationView
                 } else {
                     return annotationView
